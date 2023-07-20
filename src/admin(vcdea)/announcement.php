@@ -70,7 +70,7 @@
           </ul>
           <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              <li class="nav-item">
+              <li class="nav-item dropdown">
               <a class="nav-link nav-icon-hover" href="javascript:void(0)">
                 <i class="ti ti-bell-ringing"></i>
                 <!-- <div class="notification bg-primary rounded-circle"></div> -->
@@ -126,7 +126,8 @@
                           <label for="announcementCategory" class="form-label">Select Department:</label>
                           <select class="form-select" id="announcementCategory">
                           <option value="CAS">College of Arts and Sciences</option>
-                          <option value="CET">College of Teacher Education</option>
+                          <option value="CET">College of Engineering Technology</option>
+                          <option value="CTE">College of Teacher Education</option>
                           <option value="CICS">College of Informatics and Computing Sciences</option>
                           <option value="CONAHS">College of Nursing and Allied Health Sciences</option>
                           <option value="CABEIHM">College of Accountancy, Business, Economics, International Hospitality Management</option>
@@ -143,8 +144,8 @@
                         <div class="mb-3">
                           <label for="addedCategory" class="form-label">Added by:</label>
                           <select class="form-select" id="addedCategory">
-                            <option value="VCDEA">(VCDEA) Asst. Prof. Lorenjane E. Balan</option>
-                            <option value="HEA">(Head of External Affairs) Assoc. Prof. Djoanna Marie V. Salac</option>
+                            <option value="VCDEA">(VCDEA) Assoc. Prof. Lorenjane E. Balan</option>
+                            <option value="HEA">(Head of External Affairs) Asst. Prof. Djoanna Marie V. Salac</option>
                           </select>
                         </div>
                       </form>
@@ -188,7 +189,7 @@
   <script src="../assets/js/dashboard.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>

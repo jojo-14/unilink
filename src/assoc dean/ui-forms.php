@@ -141,7 +141,8 @@
                       <label for="department" class="form-label">Department</label>
                       <select class="form-control" id="department" name="department">
                           <option value="CAS">College of Arts and Sciences</option>
-                          <option value="CET">College of Teacher Education</option>
+                          <option value="CET">College of Engineering Technology</option>
+                          <option value="CTE">College of Teacher Education</option>
                           <option value="CICS">College of Informatics and Computing Sciences</option>
                           <option value="CONAHS">College of Nursing and Allied Health Sciences</option>
                           <option value="CABEIHM">College of Accountancy, Business, Economics, International Hospitality Management</option>
@@ -161,7 +162,6 @@
 
                       <a href="ui-formsPreview.php"></a>
                       <input type="submit" class="btn btn-primary" value="Submit">
-
                       <div class="container mt-5">
                   </form>
                 </div>

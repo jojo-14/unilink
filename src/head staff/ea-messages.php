@@ -104,9 +104,57 @@
       </header>
       <!--  Header End -->
       <div class="container-fluid">
+        <div class="container mt-4">
+          <div class="card">
+            <div class="card-header">
+              Chat with Lorenjane E. Balan
+            </div>
+            <div class="card-body" style="height: 400px; overflow-y: scroll;">
+              <!-- Message area -->
+              <div class="message">
+                <div class="message-sender"></div>
+                <div class="message-text">Hello, how are you doing?</div>
+              </div>
+              <div class="message">
+                <div class="message-sender"></div>
+                <div class="message-text">Hi, I'm doing well. Thanks for asking.</div>
+              </div>
+              <!-- Add more messages here -->
+            </div>
+            <div class="card-footer">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Type your message...">
+                  <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <script>
+    function showNotification() {
+      // Replace this with your actual notification message
+      const notificationMessage = "You have a new notification!";
+      
+      // Create a div element for the notification
+      const notificationDiv = document.createElement("div");
+      notificationDiv.classList.add("alert", "alert-success", "mt-3");
+      notificationDiv.textContent = notificationMessage;
+
+      // Add the notification to the container
+      const container = document.querySelector(".container");
+      container.appendChild(notificationDiv);
+
+      // Automatically remove the notification after a few seconds (optional)
+      setTimeout(function () {
+        container.removeChild(notificationDiv);
+      }, 5000); // 5000 milliseconds (5 seconds) here, adjust as needed
+    }
+</script>
+
   <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
   <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/js/sidebarmenu.js"></script>

@@ -125,7 +125,8 @@
                           <label for="announcementCategory" class="form-label">Select Department:</label>
                           <select class="form-select" id="announcementCategory">
                           <option value="CAS">College of Arts and Sciences</option>
-                          <option value="CET">College of Teacher Education</option>
+                          <option value="CET">College of Engineering Technology</option>
+                          <option value="CTE">College of Teacher Education</option>
                           <option value="CICS">College of Informatics and Computing Sciences</option>
                           <option value="CONAHS">College of Nursing and Allied Health Sciences</option>
                           <option value="CABEIHM">College of Accountancy, Business, Economics, International Hospitality Management</option>
@@ -142,8 +143,8 @@
                         <div class="mb-3">
                           <label for="addedCategory" class="form-label">Added by:</label>
                           <select class="form-select" id="addedCategory">
-                            <option value="VCDEA">(VCDEA) Asst. Prof. Lorenjane E. Balan</option>
-                            <option value="HEA">(Head of External Affairs) Assoc. Prof. Djoanna Marie V. Salac</option>
+                            <option value="VCDEA">(VCDEA) Assoc. Prof. Lorenjane E. Balan</option>
+                            <option value="HEA">(Head of External Affairs) Asst. Prof. Djoanna Marie V. Salac</option>
                           </select>
                         </div>
                       </form>

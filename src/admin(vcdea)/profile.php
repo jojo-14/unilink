@@ -104,6 +104,17 @@
       </header>
       <!--  Header End -->
       <div class="container-fluid">
+        <div class="container-fluid">
+        <div class="card text-center">
+          <img src="../assets/images/profile/user-admin.png" class="card-img-top mx-auto" style="max-width: 200px;" alt="Profile Image">
+          <div class="card-body">
+            <h5 class="card-title">Assoc. Prof. LORENJANE E. BALAN</h5>
+            <p class="card-text">Administrator</p>
+            <a href="#" class="btn btn-primary">Edit Profile</a>
+          </div>
+        </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>

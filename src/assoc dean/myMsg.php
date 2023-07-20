@@ -110,6 +110,33 @@
           </div>
         </nav>
       </header>
+      <div class="container mt-4">
+        <div class="card">
+          <div class="card-header">
+            Chat with Djoanna Marie V. Salac
+          </div>
+          <div class="card-body" style="height: 400px; overflow-y: scroll;">
+            <!-- Message area -->
+            <div class="message">
+              <div class="message-sender"></div>
+              <div class="message-text">Hello, how are you doing?</div>
+            </div>
+            <div class="message">
+              <div class="message-sender">You</div>
+              <div class="message-text">Hi John, I'm doing well. Thanks for asking.</div>
+            </div>
+            <!-- Add more messages here -->
+          </div>
+          <div class="card-footer">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Type your message...">
+                <button type="submit" class="btn btn-primary">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
         </div>
       </div>
     </div>
