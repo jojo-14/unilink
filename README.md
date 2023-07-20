@@ -1,6 +1,6 @@
 ![Logo](https://unilink.us/content/land/unilink_logo.png)
 
-# A Partnership Management and Monitoring System for External Affairs
+# A PARTNERSHIP MANAGEMENT AND MONITORING SYSTEM FOR EXTERNAL AFFAIRS
 LEADER: 
 - Bautista, Joy-Lyn V.
 
