@@ -121,15 +121,15 @@
                     </div>
                     <div class="modal-body">
                       <!-- Add your form elements here -->
-                      <form>
+                      <form action="announcement.php">
                         <div class="mb-3">
-                          <label for="announcementCategory" class="form-label">Select Category:</label>
+                          <label for="announcementCategory" class="form-label">Select Department:</label>
                           <select class="form-select" id="announcementCategory">
-                            <option value="CICS">CICS</option>
-                            <option value="CAS">CAS</option>
-                            <option value="CET">CET</option>
-                            <option value="CABEIHM">CABEIHM</option>
-                            <option value="CONAHS">CONAHS</option>
+                          <option value="CAS">College of Arts and Sciences</option>
+                          <option value="CET">College of Teacher Education</option>
+                          <option value="CICS">College of Informatics and Computing Sciences</option>
+                          <option value="CONAHS">College of Nursing and Allied Health Sciences</option>
+                          <option value="CABEIHM">College of Accountancy, Business, Economics, International Hospitality Management</option>
                           </select>
                         </div>
                         <div class="mb-3">
@@ -140,10 +140,18 @@
                           <label for="content" class="form-label">Content</label>
                           <textarea class="form-control" id="content" name="content" rows="4" required></textarea>
                         </div>
+                        <div class="mb-3">
+                          <label for="addedCategory" class="form-label">Added by:</label>
+                          <select class="form-select" id="addedCategory">
+                            <option value="VCDEA">(VCDEA) Asst. Prof. Lorenjane E. Balan</option>
+                            <option value="HEA">(Head of External Affairs) Assoc. Prof. Djoanna Marie V. Salac</option>
+                          </select>
+                        </div>
                       </form>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <a href="announcement.php"></a>
                       <button type="button" class="btn btn-primary">Save Announcement</button>
                     </div>
                   </div>
@@ -153,19 +161,20 @@
               <div class="card">
                 <div class="card-body">
                     <table class="table table-hover">
-                      <thead>
-                        <!-- <thead> -->
-                        <!-- <tr>
-                            <th scope="col">Activity Name</th>
-                            <th scope="col">Partner Name</th>
-                            <th scope="col">Department</th>
-                            <th scope="col">Date</th>
-                            <th scope="col">File</th>
-                        </tr> -->
+                          <thead>
+                            <tr>
+                            <th scope="col">Title</th>
+                            <th scope="col">Content</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Added by</th>
+                        </tr>
+                          </thead>
+                          <!-- <tbody id="announcementTableBody"> -->
                     </table>
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </div>
