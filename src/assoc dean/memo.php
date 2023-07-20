@@ -1,0 +1,1 @@
+<!-- makikita rito lahat ng announcement ng VCDEA or ng EA na halimbawa ay magkakaroon ng meeting -->

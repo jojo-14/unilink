@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Downloadable Input Example</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Downloadable Input Example</h1>
+
+    <form>
+      <div class="mb-3">
+        <label for="inputText" class="form-label">Input Text</label>
+        <input type="text" class="form-control" id="inputText">
+      </div>
+
+      <div class="mb-3">
+        <label for="inputFile" class="form-label">Input File</label>
+        <input type="file" class="form-control" id="inputFile">
+      </div>
+
+      <button type="button" class="btn btn-primary" onclick="downloadInput()">Download</button>
+    </form>
+  </div>
+
+  <script>
+    function downloadInput() {
+      const inputText = document.getElementById('inputText').value;
+      const inputFile = document.getElementById('inputFile').files[0];
+
+      // Create a new anchor element
+      const anchor = document.createElement('a');
+
+      // Set the text file data as the href attribute
+      anchor.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(inputText);
+
+      // Set the download attribute and file name
+      anchor.download = 'input.txt';
+
+      // Append the anchor element to the body and trigger the download
+      document.body.appendChild(anchor);
+      anchor.click();
+
+      // Remove the anchor element
+      document.body.removeChild(anchor);
+    }
+  </script>
+</body>
+</html>
