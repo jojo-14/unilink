@@ -4,7 +4,7 @@
 LEADER: 
 - Bautista, Joy-Lyn V.
 
-MEMBERS: 
+🙎‍♀️ MEMBERS: 
 - Anorico, Ma. Grace Deanne G.
 - Frias, Joe Honey G.
 - Laparan, Bryan Angelo B.
